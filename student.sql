@@ -1,0 +1,17 @@
+CREATE DATABASE BarqDev;
+
+USE BarqDev;
+
+CREATE TABLE employee (
+id INT PRIMARY KEY,
+name VARCHAR(50),
+age INT NOT NULL,
+salary INT
+);
+
+INSERT INTO employee VALUE (1, "ADIL" , 26, 45000);
+INSERT INTO employee VALUE (2, "ASIF" , 24, 35000);
+INSERT INTO employee VALUE (3, "GHULAM" , 21, 32000);
+INSERT INTO employee VALUE (4, "DILAWAR", 19, 28000);
+
+SELECT * FROM employee
